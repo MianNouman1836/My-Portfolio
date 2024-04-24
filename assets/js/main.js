@@ -41,6 +41,38 @@ function redirectToGithub() {
   window.open(githubURL, "_blank");
 }
 
+function redirectToFlutterUI() {
+  // Replace this URL with your LinkedIn profile URL
+  var githubURL = "https://github.com/MianNouman1836/best_flutter_ui_templates.git";
+  window.open(githubURL, "_blank");
+}
+
+function redirectToFlutterCRUD() {
+  // Replace this URL with your LinkedIn profile URL
+  var githubURL = "https://github.com/MianNouman1836/Flutter-Firebase-CRUD-Auth";
+  window.open(githubURL, "_blank");
+}
+
+function redirectToFlutterRestApi() {
+  // Replace this URL with your LinkedIn profile URL
+  var githubURL = "https://github.com/MianNouman1836/Flutter-Rest-Api-Series";
+  window.open(githubURL, "_blank");
+}
+
+function redirectToFlutterNewsApp() {
+  // Replace this URL with your LinkedIn profile URL
+  var githubURL = "https://github.com/MianNouman1836/Flutter-International-news-app";
+  window.open(githubURL, "_blank");
+}
+
+function redirectToMERNApp() {
+  // Replace this URL with your LinkedIn profile URL
+  var githubURL = "https://github.com/MianNouman1836/FULL-STACK-MERN-APPLICATION";
+  window.open(githubURL, "_blank");
+}
+
+
+
 /* ----- DOWNLOAD CV ----- */
 function downloadCV() {
   var cvFilename = "Nouman Ahmed.pdf"; // Replace with your actual CV filename
