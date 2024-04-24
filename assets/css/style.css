@@ -522,6 +522,9 @@ footer {
   font-weight: 500;
   margin-inline: 20px;
 }
+.project-container a {
+  text-decoration: none;
+}
 .footer_menu_list a:hover {
   color: var(--first-color);
 }
