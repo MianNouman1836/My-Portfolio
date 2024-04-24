@@ -43,7 +43,7 @@ function redirectToGithub() {
 
 /* ----- DOWNLOAD CV ----- */
 function downloadCV() {
-  var cvFilename = "Nouman-Ahmed.pdf"; // Replace with your actual CV filename
+  var cvFilename = "Nouman Ahmed.pdf"; // Replace with your actual CV filename
   var cvURL = "assets/documents/" + cvFilename; // Replace with the correct path to your CV file
 
   var link = document.createElement("a");
