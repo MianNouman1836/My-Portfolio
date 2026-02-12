@@ -417,7 +417,7 @@ h3 {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   padding: 20px 30px;
   width: 100%;
   height: 315px;
