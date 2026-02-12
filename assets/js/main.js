@@ -30,43 +30,36 @@ function headerShadow() {
 
 /* ----- REDIRECTION FUNTIONS ----- */
 function redirectToLinkedIn() {
-  // Replace this URL with your LinkedIn profile URL
   var linkedinURL = "https://www.linkedin.com/in/noumanahmed1836/";
   window.open(linkedinURL, "_blank");
 }
 
 function redirectToGithub() {
-  // Replace this URL with your LinkedIn profile URL
   var githubURL = "https://github.com/MianNouman1836";
   window.open(githubURL, "_blank");
 }
 
 function redirectToFlutterUI() {
-  // Replace this URL with your LinkedIn profile URL
   var githubURL = "https://github.com/MianNouman1836/best_flutter_ui_templates.git";
   window.open(githubURL, "_blank");
 }
 
 function redirectToFlutterCRUD() {
-  // Replace this URL with your LinkedIn profile URL
   var githubURL = "https://github.com/MianNouman1836/Flutter-Firebase-CRUD-Auth";
   window.open(githubURL, "_blank");
 }
 
 function redirectToFlutterRestApi() {
-  // Replace this URL with your LinkedIn profile URL
   var githubURL = "https://github.com/MianNouman1836/Flutter-Rest-Api-Series";
   window.open(githubURL, "_blank");
 }
 
 function redirectToFlutterNewsApp() {
-  // Replace this URL with your LinkedIn profile URL
   var githubURL = "https://github.com/MianNouman1836/Flutter-International-news-app";
   window.open(githubURL, "_blank");
 }
 
 function redirectToMERNApp() {
-  // Replace this URL with your LinkedIn profile URL
   var githubURL = "https://github.com/MianNouman1836/FULL-STACK-MERN-APPLICATION";
   window.open(githubURL, "_blank");
 }
@@ -75,8 +68,8 @@ function redirectToMERNApp() {
 
 /* ----- DOWNLOAD CV ----- */
 function downloadCV() {
-  var cvFilename = "Nouman Ahmed.pdf"; // Replace with your actual CV filename
-  var cvURL = "assets/documents/" + cvFilename; // Replace with the correct path to your CV file
+  var cvFilename = "Nouman Ahmed.pdf"; 
+  var cvURL = "assets/documents/" + cvFilename;
 
   var link = document.createElement("a");
   link.href = cvURL;
@@ -87,10 +80,8 @@ function downloadCV() {
 /* ----- TYPING EFFECT ----- */
 var typingEffect = new Typed(".typedText", {
   strings: [
-    "Full Stack Developer!",
-    "MERN Stack Developer!",
-    "MEAN Stack Developer!",
-    "Mobile App Developer!",
+    "AI Engineer",
+    "Software Engineer",
   ],
   loop: true,
   typeSpeed: 100,
